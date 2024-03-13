@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 540px;
+}
+
+body {
+	padding: 16px;
+	font-family: "Poppins", sans-serif;
+	background-color: #FFED96;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+
+header img {
+	width: 200px;
+}
+
+h1 {
+	color: #AFB6DC;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+.panel {
+	padding: 8px;
+	border-radius: 16px;
+	background-color: white;
+}
+
+.add-todo {
+	display: flex;
+	gap: 8px;
+	margin-top: 16px;
+}
+
+input {
+	font-size: 16px;
+	padding: 16px;
+	border-radius: 8px;
+	border: none;
+	flex-grow: 1;
+}
+
+button {
+	cursor: pointer;
+	padding: 16px;
+	border: none;
+	border-radius: 16px;
+	background-color: #AFB6DC;
+}
+
+button img {
+	width: 15px;
+	height: auto;
+}
+
+.empty-list-message {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.todo-item {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	background-color: rgb(255, 255, 255);
+	margin: 16px 0;
+	border-radius: 16px;
+	position: relative;
+}
+
+.edit-button {
+	position: absolute;
+	right: 8px;
+}
+
+.todo-text {
+	padding: 16px;
+}
+
+.todo-check {
+	cursor: pointer;
+	padding: 16px;
+	border-radius: 16px 0 0 16px;
+	background-color: #AFB6DC;
+}
